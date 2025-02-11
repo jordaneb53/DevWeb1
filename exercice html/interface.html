@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/interface.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+          <a href="#">
+            <img src="image/logo (1).png" alt="Logo Café aux dés" id="logoSite">
+          </a>
+        </div>
+        <span>Connecté en tant que BRAUN Jordane</span><img src="image/avatar.png" width="50" style="margin-left: 15px;" alt=""><h5 style="margin-left: 130px;">Déconnexion<i class="fa-solid fa-right-from-bracket" style="margin-left: 10px;"></i></h5>
+      </header>
+
+    <main>
+      
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-arrows-down-to-people" style="color:#1E90FF;"></i>Clients</a></li>
+            <li><a href="#"><i class="fa-brands fa-dropbox" style="color:#A0522D ;"></i>Produits</a></li>
+            <li><a href="#"><i class="fa-solid fa-handshake" style="color: #3CB371;" ></i>Fournisseurs</a></li>
+            <input type="text" placeholder="Rechercher 🔍" >
+        </ul>
+    <div class="sidebar">
+      <div class="menu-item">
+        <i>🏠</i>
+        <span>Accueil</span>
+      </div>
+      <div class="menu-item">
+        <i>🔍</i>
+        <span>Recherche</span>
+      </div>
+      <div class="menu-item">
+        <i class="fa-solid fa-arrows-down-to-people" style="color:#1E90FF;"></i>
+        <span>Clients</span>
+      </div>
+      <div class="menu-item">
+        <i class="fa-solid fa-handshake" style="color: #3CB371;" ></i>
+        <span>Fournisseurs</span>
+      </div>
+      <div class="menu-item">
+        <i class="fa-brands fa-dropbox" style="color:#A0522D ;"></i>
+        <span>Produits</span>
+      </div>
+      <div class="bottom-items">
+      <div class="menu-item">
+        <i>⚙️</i>
+        <span>Paramètres</span>
+      </div>
+      <div class="menu-item" >
+        <i>📧</i>
+        <span>Messages</span>
+      </div>
+      <div class="menu-item" >
+        <i>❓</i>
+        <span>Aide</span>
+      </div>
+    </div>
+    </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Date</th>
+                        <th>Produit</th>
+                        <th>Catégorie</th>
+                        <th>Quantité</th>
+                        <th>Action</th>
+                        <th></th>
+                    </tr>
+                    <div class="table-body">
+                        <tr>
+                            <td>Nike</td>
+                            <td>2025-01-01</td>
+                            <td>Basket</td>
+                            <td>Homme</td>
+                            <td>50</td>
+                            <td class="edit"><button>Modifier</button></td>
+                            <td class="delete"><button>Supprimer</button></td>
+                        </tr>
+                        <tr>
+                            <td>Lacoste</td>
+                            <td>2025-01-01</td>
+                            <td>T-shirt</td>
+                            <td>Femme</td>
+                            <td>25</td>
+                            <td class="edit"><button>Modifier</button></td>
+                            <td class="delete"><button>Supprimer</button></td>
+                        </tr>
+                        <tr>
+                            <td>Chanel</td>
+                            <td>2025-01-01</td>
+                            <td>Eau de parfum</td>
+                            <td>Homme</td>
+                            <td>30</td>
+                            <td class="edit"><button>Modifier</button></td>
+                            <td class="delete"><button>Supprimer</button></td>
+                        </tr>
+                        <tr>
+                            <td>Pandora</td>
+                            <td>2025-01-01</td>
+                            <td>Bague</td>
+                            <td>Femme</td>
+                            <td>10</td>
+                            <td class="edit"><button>Modifier</button></td>
+                            <td class="delete"><button>Supprimer</button></td>
+                        </tr>
+                        <tr>
+                          <td>Gucci</td>
+                          <td>2025-01-01</td>
+                          <td>Casquette</td>
+                          <td>Homme</td>
+                          <td>100</td>
+                          <td class="edit"><button>Modifier</button></td>
+                          <td class="delete"><button>Supprimer</button></td>
+                      </tr>
+                      <tr>
+                            <td>Louis Vuitton</td>
+                            <td>2025-01-01</td>
+                            <td>Sac à main</td>
+                            <td>Femme</td>
+                            <td>60</td>
+                            <td class="edit"><button>Modifier</button></td>
+                            <td class="delete"><button>Supprimer</button></td>
+                        </tr>
+                        <tr>
+                          <td>Hermes</td>
+                          <td>2025-01-01</td>
+                          <td>Ceinture</td>
+                          <td>Homme</td>
+                          <td>80</td>
+                          <td class="edit"><button>Modifier</button></td>
+                          <td class="delete"><button>Supprimer</button></td>
+                      </tr>
+                    </div>
+                    <div class="table-foot">
+                        <tr>
+                            <span colspan="7">Totale des produits: 115</span> 
+                        </tr>
+                    </div>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <div class="suivant">
+      <i class="fa-solid fa-angles-left"></i><span>Page 1 sur 10</span><i class="fa-solid fa-angles-right"></i>
+    </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <ul class="footer-left">
+          <li><i class="fa-regular fa-copyright" style="color:#4B0082;"></i> Copyright -2025- Braun Jordane</li>
+        </ul>
+        <ul class="footer-center">
+          <li><i class="fa-solid fa-v" style="color:#00FF00;"></i> Version N° 1.0</li>
+        </ul>
+        <ul class="footer-right">
+          <li><a href=""><i class="fa-solid fa-cookie-bite" style="color:#A0522D;"></i> Cookies</a></li>
+          <li><a href=""><i class="fa-solid fa-award" style="color:#0000FF;"></i> Police de confidentialité</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  </html>

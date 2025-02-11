@@ -1,0 +1,176 @@
+body{
+    border-top: 5px solid red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color:rgb(30,30,30)
+}
+header,footer{
+    background-color: rgb(158,114,75);
+}
+#logoSite,#logoSiteFooter{
+    width: 150px;
+
+}
+span#nomSite{
+    color: #40d6b0;
+    text-align: center;
+}
+
+    
+h1{
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(158,114,75);
+}
+h2{
+    border-bottom: 1px solid #40d6b0;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+main .container {
+    padding: 20px;
+}
+header nav ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+header nav > ul li{
+    position: relative;
+}
+header nav > ul > li a{
+    display: block;
+    padding: 10px;
+    background-color:#2da886;
+    text-decoration: none;
+    color:rgb(158,114,75);
+}
+header nav > ul > li >a{
+    background-color:rgb(158,114,75) ;
+    color: #2da886;
+}
+header nav ul ul{
+    display: none;
+}
+header nav > ul > li:hover > ul,
+header nav > ul > li:focus > ul{
+    display: block;
+}
+header nav ul li a:hover {
+    background-color: rgb(158,114,75);
+    color:#2da886;
+    }
+img{
+    max-width: 100%;
+}
+article{
+    border: 2px solid #40d6b0;
+    margin-bottom: 5px;
+}
+.products {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.products article{
+    box-sizing: border-box;
+    width: 100%;
+}
+.products img{
+    width: 100%;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #40d6b0; /* Couleur de fond principale */
+    color: #ffffff; /* Couleur du texte */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ffffff; /* Couleur de la bordure */
+}
+
+th {
+    background-color: #35b89a; /* Couleur pour les en-têtes */
+    font-size: 1.2em;
+}
+
+tr:nth-child(even) {
+    background-color: #3ccaa4; /* Couleur pour les lignes paires */
+}
+
+tr:hover {
+    background-color: #2da886; /* Couleur au survol */
+    transition: background-color 0.3s;
+}
+caption{
+    border: 1px solid #40d6b0;
+    background-color: rgb(158,114,75);
+}
+
+
+
+
+
+/* color:rgb(64,214,176) blue       color:rgb(158,114,75) brown */
+
+@media(min-width: 500px) {
+    body{
+        border-top: 5px solid orange;
+    }
+}
+@media(min-width: 768px) {
+    body{
+        border-top: 5px solid yellow ;
+    .container{
+        width: 768px;
+        margin: auto;
+        .products article{
+            width: 50%;
+        }
+    }
+}
+}
+@media (min-width: 992px) { 
+    body{
+        border-top: 5px solid green;
+    .container{
+        width: 992px;
+        .products article{
+            width: 33%;
+        }
+    }
+    header nav > ul > li{
+        display: inline-block;
+        
+    }
+    header nav > ul > li > a{
+        display: inline-block;
+        padding: 25px;
+    }
+    header nav ul ul{
+        position: absolute;
+}
+    header nav ul ul a{
+        border-bottom: 1px solid #02187c;
+    }
+}
+}
+@media (min-width: 1199px) { 
+    body{
+        border-top: 5px solid blue;
+    .container{
+        width: 1199px;
+    }   
+    }
+}
+@media (min-width: 1400px) { 
+    body{
+        border-top: 5px solid purple;
+    
+    }
+}
